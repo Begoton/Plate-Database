@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="R.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plate Database</title>
+</head>
+<body>
+
+    <button style="float: right;" id="view">View all items</button>
+
+    <div id="sidebar">
+        <p>Plate Number</p> 
+        <input type="text" id="plate">
+        <p>Color</p>
+        <input type="text" id="color">
+        <p>Make</p>
+        <input type="text" id="search"> 
+        <p style="color: gray" id="SelMake">Selected make: </p>
+        <br><br><br>
+        <div id="resultbox"></div>
+        <hr>    
+        <p>Notes</p>    
+        <textarea rows="5" name="" id="notes"></textarea>
+        <br>
+        <button id="append">Append</button>
+    </div>
+
+    <div id="clone">
+        <p>Plate number found. . . <button style="float: right;" id="close">x</button></p>
+        <hr>
+        <p id="clone_plate">Plate</p>
+        <p id="clone_color">Color</p>
+        <p id="clone_make">Make</p>
+        <p id="clone_notes">Notes</p>
+        <hr>
+        <p id="cplate" style="color:gray">Plate</p>
+        <p id="ccolor" style="color:gray">Plate</p>
+        <p id="cmake" style="color:gray">Plate</p>
+        <p id="cnotes" style="color:gray">Plate</p>
+    </div>
+
+    <div id="allItems">
+        <p>All saved items <button style="float: right;" id="closeItems">x</button></p>
+        <hr>
+        <div id="SIB"></div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

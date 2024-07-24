@@ -1,0 +1,75 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    background-color: gray;
+    overflow: hidden;
+}
+#sidebar
+{
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: rgb(20, 20, 20);
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#sidebar input[type="text"]
+{
+    background-color: rgb(48, 48, 48);
+    color: gray;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: monospace;
+}
+#resultbox
+{
+    height: 200px;
+    width: 80%; 
+    background-color: rgb(50, 50, 50);
+    overflow-x: hidden;
+    overflow-y: scroll  
+}
+#clone
+{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    color: white;
+    display: none;
+}
+#allItems
+{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    color: white;
+    display: none;
+}
+#SIB
+{
+    height: 85%;
+    width: 99.9%;
+    border: 1px solid white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
